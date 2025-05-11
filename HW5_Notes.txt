@@ -1,0 +1,31 @@
+Part 1: 2^n-2=14; n=4 (4 host bits)
+
+32-4=28 bits for the network
+
+Subnet Mask= 255.255.255.240
+
+Prefix Length= /28
+
+Subnet increment= last position of 1 of the last octet= 16
+
+Subnet 1:
+
+Network Address: 192.168.10.0
+
+First Usable IP: 192.168.10.1
+
+Last Usable IP: 192.168.10.14
+
+Broadcast Address: 192.168.10.15
+
+Subnet 2:
+
+Network Address: 192.168.10.16
+
+First Usable IP: 192.168.10.17
+
+Last Usable IP: 192.168.10.30
+
+Broadcast Address: 192.168.10.31
+
+Part 2:
